@@ -1,6 +1,6 @@
 import React from "react";
 
-export const DetalhesDePersonagens =()=> {
+export const Localizacao =()=> {
 
     return(
         <>

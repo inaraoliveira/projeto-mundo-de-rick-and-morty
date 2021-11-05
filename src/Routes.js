@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Personagens } from './pages/Personagens';
 import { SobreASerie } from './pages/SobreASerie';
-import { DetalhesDePersonagens } from './pages/DetalhesDePersonagens';
+import { Localizacao } from './pages/Localizacao';
 
 export const Rotas = ()=> {
 
@@ -12,9 +12,9 @@ export const Rotas = ()=> {
         <main>
             <Switch>
                 <Route exact path='/' component={Home} />
-                <Route path='/Personagens' component={Personagens} />
-                <Route path='/SobreASerie' component={SobreASerie} />
-                <Route path='/DetalhesDePersonagens' component={DetalhesDePersonagens} />
+                <Route path='/personagens' component={Personagens} />
+                <Route path='/sobreaserie' component={SobreASerie} />
+                <Route path='/localizacao' component={Localizacao} />
             </Switch>
         </main>
     );
