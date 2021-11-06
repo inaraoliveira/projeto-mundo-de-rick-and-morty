@@ -1,0 +1,36 @@
+.pConteudo{
+    display:flex;
+     /* align-items:center;  */
+    /* align-content: center; */
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: auto;
+    width:100vw;
+    max-width: 900px;
+    max-height:500px;
+    height: 100vh;
+    gap: 10px;
+    }
+    .pImg{
+      width:50%;
+      border-radius: 50%;
+    }
+    .card{
+      display: flex;
+      /* max-width: 200px; */
+      flex:1 1 200px; 
+      /* align-items:center; 
+       align-content: center; */
+      justify-content: center; 
+    flex-direction: column;
+    text-align: center;
+    background-color:black;
+    }
+    .pParagrafo{
+      margin: 5px;
+      color: #fff;
+    }
+    .pTitulo{
+      color:#fff;
+    }
