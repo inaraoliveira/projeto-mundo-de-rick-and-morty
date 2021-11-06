@@ -3,6 +3,8 @@ import '../styles/Header.css'
 import gif from '../assets/logo2.0.gif';
 import { Link } from "react-router-dom";
 
+import { Menu } from "./Menu";
+
 export const Header = ()=> {
 
     return(
@@ -16,7 +18,7 @@ export const Header = ()=> {
                 <Link to="/sobreaserie">SOBRE A SÉRIE</Link>
                 <Link to="/localizacao">LOCALIZAÇÃO</Link>
             </nav>
-            <button className='responsive-btn'>▽</button>
+            <Menu />
         </header>
     );
 }
