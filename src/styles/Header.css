@@ -10,17 +10,6 @@
     border-bottom: chartreuse solid 2px;
 }
 
-.responsive-btn{
-    width: 100%;
-    font-size: 1.5rem;
-    color: chartreuse;
-    text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
-    border: none;
-    cursor: pointer;
-    background: black;
-    display: none;
-}
-
 .Logo img{
     width: 320px;
     height: 120px;
@@ -45,8 +34,5 @@
 @media (max-width: 850px){
     .nav-bar{
         display: none;
-    }
-    .responsive-btn{
-        display: inline-block;
     }
 }
