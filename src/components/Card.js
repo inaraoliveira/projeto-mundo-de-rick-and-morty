@@ -1,14 +1,14 @@
 import React,{ useEffect, useState } from "react";
-import "./Personagens.css";
+// import "./Personagens.css";
 import Api from "../services/Api";
 
-export const Personagens=()=> {
+export const Card=()=> {
     const [personagens, setPersonagens] = useState([]);
     // document.title="Rick and Morty";
   
   
     useEffect(() => {
-      Api.get("/character/?page=20")
+      Api.get("/character/?page=1")
         .then((response) => setPersonagens(response.data.results))
         .catch((err) => {
           console.error("erro" + err);
@@ -28,17 +28,12 @@ export const Personagens=()=> {
               <h1 className="ptitulo">{card.name}</h1>
               <img className="pImg" src={card.image} alt="" />
             </div>
-            <p className="pParagrafo">Espécie: {card.species}</p>
-            <p className="pParagrafo">Status: {card.status}</p>
-            <p className="pParagrafo">Gênero: {card.gender}</p>  
+            <p className="pParagrafo">{card.name}</p>
            <p className="pParagrafo">Localizaçâo: {card.location.name}</p> 
           </div>
         )
       })}
           
-              {/* <Modal>
-          <h1>oi</h1>
-        </Modal>  */}
     </div>
   );
 }
