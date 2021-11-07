@@ -1,50 +1,39 @@
-import { useEffect, useState } from "react";
+import React,{ useEffect, useState } from "react";
+// import "./Personagens.css";
 import Api from "../services/Api";
 
+export const Card=()=> {
+    const [personagens, setPersonagens] = useState([]);
+    // document.title="Rick and Morty";
+  
+  
+    useEffect(() => {
+      Api.get("/character/?page=1")
+        .then((response) => setPersonagens(response.data.results))
+        .catch((err) => {
+          console.error("erro" + err);
+          
+        });
+    },[])
 
-    const Card= ()=> {
-        const [dados, setDados] = useState([]);
-
-        const urlInicial = "/character";
-
-        const chamadaApi = (url) => {
-            Api.get(url)
-            .then(response => {
-                setDados(response.data.result)
-            }).catch(error =>{
-                console.error(error)
-            })
-        }
-
-        useEffect(() =>{
-            chamadaApi(urlInicial);
-        }, [])
-
-        console.log(dados)
-    
-
-    return(
-
-        <div>
+   return (
+   
+    <div className="pConteudo">
+      {personagens.map((card, key) => {
+        
+        return (
+          <div className="card" key={key}>
+            
             <div>
-                {
-                    dados.map((item, index) =>{
-                        return(
-                            <div>
-                                <img className="card-img" src={item.imge} alt="" />
-                                <div>
-                                    <strong>{item.name}</strong>
-                                    <p>{item.specie}</p>
-                                    <p>{item.location?.name}</p>
-                                </div>
-                            </div>
-                        )
-                    }
-                    )
-                }
+              <h1 className="ptitulo">{card.name}</h1>
+              <img className="pImg" src={card.image} alt="" />
             </div>
-        </div>
-    )
+            <p className="pParagrafo">{card.name}</p>
+           <p className="pParagrafo">Localizaçâo: {card.location.name}</p> 
+          </div>
+        )
+      })}
+          
+    </div>
+  );
 }
-
-export default Card;
