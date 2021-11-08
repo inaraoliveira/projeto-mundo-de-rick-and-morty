@@ -34,3 +34,9 @@
     .pTitulo{
       color:#fff;
     }
+
+    .imgLocation{
+      width: 15%;
+      height: 5vh;
+      margin: auto;
+    }
