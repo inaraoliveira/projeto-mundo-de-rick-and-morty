@@ -30,6 +30,7 @@
     transform: translateY(-5px);
     transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
     display: none;
+    z-index: 2;
 }
 .dropdown-menu:active{
     display: flex;
