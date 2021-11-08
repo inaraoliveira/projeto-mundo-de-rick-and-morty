@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family:"dk";
+  src: url("DK Lemon Yellow Sun") format("opentype") ;
+  font-weight: normal;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }

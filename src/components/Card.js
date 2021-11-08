@@ -1,16 +1,20 @@
 import React,{ useEffect, useState } from "react";
-// import "./Personagens.css";
+import Img from "../assets/localizacao.png"
+import  "../styles/Card.css";
 import Api from "../services/Api";
+import Modal from "./Modal";
 
 export const Card=()=> {
+
     const [personagens, setPersonagens] = useState([]);
-    // document.title="Rick and Morty";
+    const [modalVisible, setModalVisible] = useState(false)
+    
   
   
     useEffect(() => {
       Api.get("/character/?page=1")
-        .then((response) => setPersonagens(response.data.results))
-        .catch((err) => {
+         .then((response) => setPersonagens(response.data.results))
+         .catch((err) => {
           console.error("erro" + err);
           
         });
@@ -18,22 +22,25 @@ export const Card=()=> {
 
    return (
    
-    <div className="pConteudo">
+    <div className="Conteudo">
       {personagens.map((card, key) => {
         
         return (
-          <div className="card" key={key}>
+          <div className="card1" key={key}>
             
-            <div>
-              <h1 className="ptitulo">{card.name}</h1>
-              <img className="pImg" src={card.image} alt="" />
+            <div className="container-img">
+              <img className="Img" src={card.image} alt="" />
             </div>
-            <p className="pParagrafo">{card.name}</p>
-           <p className="pParagrafo">Localizaçâo: {card.location.name}</p> 
+            <div className="container-paragrafo">
+              <p className="Paragrafo">{card.name}</p>
+                         <img  className="imgLocation" src={Img} alt="" onClick={()=>setModalVisible(true)}  />
+            </div>
+          
           </div>
         )
       })}
-          
+           {modalVisible ? <Modal event={()=>setModalVisible(false)} local={Img}
+            />: null}
     </div>
   );
 }
