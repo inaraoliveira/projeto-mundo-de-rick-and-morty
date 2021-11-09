@@ -1,22 +1,28 @@
-import React from "react";
+import React from "react"
 import "../styles/modal.css"
 
+const Location = ({location, personagem,event}) => {
 
-const Modal = (props)=>{   
-    return(
-        <div className="modal">
-             <div className="conteudo" >
-                <button className="closed" onClick={props.event} >x</button>
-               
-                </div>
-            <div className="container" >
-               
-                <div>
+    console.log(personagem)
+
+    return (
+        <>
+            <div class="div-modal" onClick={event}>
+                <div className="modal">
+                    <div className="personagem">
+                        <img src={personagem.image} alt=""/>
+                        <p>{personagem.name}</p>
+                    </div>
+                    <div className="infos">
+                    <p><strong></strong>{personagem.gender}</p>
+                    <p><strong>Name: </strong> {location.name}</p>
+                    <p><strong>Dimension: </strong> {location.dimension}</p>
+                    <p><strong>Type: </strong> {location.type}</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </>
     )
-        
 }
 
-export default Modal;
+export default Location;
