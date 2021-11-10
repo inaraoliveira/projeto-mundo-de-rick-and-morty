@@ -13,6 +13,10 @@ export const Personagens=()=> {
     const urlInicial = "/character?page=1";
     const urlpersonagem = "/character/"
 
+    useEffect(()=>{
+        document.title = 'Personagens'
+    }, []);
+    
     const consumindoApi = (url) => {
       Api.get(page ? page : url)
         .then(response => {

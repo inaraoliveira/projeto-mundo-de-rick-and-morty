@@ -16,7 +16,7 @@ export const Header = ()=> {
                 <Link to="/">HOME</Link>
                 <Link to="/personagens">PERSONAGENS</Link>
                 <Link to="/sobreaserie">SOBRE A SÉRIE</Link>
-                <Link to="/localizacao">LOCALIZAÇÃO</Link>
+                <Link to="/localizacao">LOCALIZAÇÕES</Link>
             </nav>
             <Menu />
         </header>

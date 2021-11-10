@@ -1,0 +1,19 @@
+.container-perfil{
+    width: auto;
+    height: 200px;
+    margin-bottom: 50px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(28, 163, 190);
+    border: chartreuse solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-perfis{
+    width: 100%;
+    height: auto;
+    padding: 80px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+
+}

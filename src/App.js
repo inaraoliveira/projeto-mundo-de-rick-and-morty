@@ -1,7 +1,7 @@
 import './styles/App.css'
 import { Header } from './components/Header';
 import { Rotas } from './Routes';
-import Particle from './components/particle';
+import Particle from './components/Particle';
 
 
 
@@ -10,7 +10,7 @@ import Particle from './components/particle';
 function App() {
   return (
     <div className="App">
-      <Particle/>
+      <Particle />
       <Header />
       <Rotas /> 
     </div>
