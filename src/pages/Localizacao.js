@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Api from "../services/Api";
-import '../styles/localizacao.css'
-import Location from "../components/modal";
+import '../styles/Localizacao.css'
+import Location from "../components/Modal";
 import axios from "axios";
  import prev from "../assets/prev.png"
  import next from "../assets/next.png"
