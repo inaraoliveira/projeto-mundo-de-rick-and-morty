@@ -19,15 +19,10 @@ body{
   
 }
 
-
-
 ::-webkit-scrollbar {
     background: black;
     width: 2px;
-  }
-  
-
-  
+  } 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(175, 255, 29);
 }
