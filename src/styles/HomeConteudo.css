@@ -20,7 +20,8 @@
     border: chartreuse solid 2px;
   }
   .container-bio:hover{
-    box-shadow:0 0 30px chartreuse ;
+    box-shadow:0 0 30px chartreuse;
+    transition: 0.5s;
   }
   
   .biografias{

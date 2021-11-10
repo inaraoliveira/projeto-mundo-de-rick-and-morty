@@ -6,7 +6,7 @@ export const Footer = ()=> {
 
     return(
         <section className='footer-container'>
-            <Link to={()=>{}}>SAIBA MAIS</Link>
+            <Link to='/criadores'>CRIADORES</Link>
         </section>
     );
 }
