@@ -1,4 +1,4 @@
-.div-modal{
+.div-modal2{
   background-color: #000000ef;
   position: fixed;
   width: 100%;
@@ -12,7 +12,7 @@
 }
 
 
-.modal{
+.modal2{
     background-color: #000000ef;
     position: absolute;
     position: fixed;
@@ -28,15 +28,15 @@
     border: solid 2px  #7dcd40;
 }
 
-.modal:hover{
+.modal2:hover{
   box-shadow:0 0 15px 0px chartreuse;
 }
 
-.modal strong {
+.modal2 strong {
     color: #7dcd40;
 }
 
-.personagem {
+.personagem2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@
 }
 
 
-.personagem img{
+.personagem2 img{
   width: 10rem;
   border-radius: 50%;
   margin-bottom: 10px;

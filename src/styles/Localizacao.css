@@ -1,4 +1,4 @@
-.cards {
+.cards2 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-.cards .card {
+.cards2 .card2 {
     width: 13rem;
     margin: 10px;
     background: #7dcd40;
@@ -20,19 +20,19 @@
     font-weight: bolder;
 }
 
-.cards .card:hover {
+.cards2 .card2:hover {
     width: 16rem;
     box-shadow:0 0 15px 0px chartreuse;
     transition: 1000ms ease-out;
  }
 
 
-.card img {
+.card2 img {
     width: 100%;
     border-radius: 3%;
 }
 
-.card-body {
+.card-body2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -40,20 +40,20 @@
    
 }
 
-.pagination {
+.pagination2 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
 }
 
-.pagination button {
+.pagination2 button {
     background: none;
     border: none;
     margin: 8px;
 }
 
-.img-button {
+.img-button2 {
     width: 40px;
     height: 40px;
 }
