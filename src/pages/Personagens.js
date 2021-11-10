@@ -4,14 +4,19 @@ import Api from "../services/Api";
 import ModalPersonagem from "../components/ModalPersonagem";
 
 export const Personagens = () => {
-  document.title = "Rick and Morty";
+  // document.title = "Rick and Morty";
   const [personagens, setPersonagens] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [page, setPage] = useState("");
   const [info, setInfo] = useState({});
   const [idPersonagem, setId] = useState({});
   const urlInicial = "/character?page=1";
-  const urlpersonagem = "/character/"
+  const urlpersonagem = "/character/";
+
+
+  useEffect(() => {
+    document.title = 'Personagens';
+  }, []);
 
   const consumindoApi = (url) => {
     Api.get(page ? page : url)
@@ -72,11 +77,11 @@ export const Personagens = () => {
 
         <ModalPersonagem personagem={idPersonagem} open={isOpen} close={() => setIsOpen(false)} />
         <div className="trocaTela">
-        <button onClick={voltar} className="prev">Anterior</button>
-        <button onClick={avanca} className="next">Próxima</button>
+          <button onClick={voltar} className="prev">Anterior</button>
+          <button onClick={avanca} className="next">Próxima</button>
+        </div>
       </div>
-      </div>
-      
+
     </>
 
   );
