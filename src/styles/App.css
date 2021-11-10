@@ -16,8 +16,12 @@ body{
   height: 100vh;
 }
 
-.test{
-  width: 300px;
-  height: 80vh;
-  margin: 100px;
+.container-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-home img {
+  width: 320px;
+  height: auto;
 }

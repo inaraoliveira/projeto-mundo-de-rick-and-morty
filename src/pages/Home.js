@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { Footer } from "../components/Footer";
+import { Conteudo } from "../components/HomeConteudo";
+
 
 export const Home =()=> {
 
@@ -9,7 +11,7 @@ export const Home =()=> {
 
     return(
         <section className='container-home'>
-            <div className='test'></div>
+            <Conteudo />
             <Footer />
         </section>
     );
