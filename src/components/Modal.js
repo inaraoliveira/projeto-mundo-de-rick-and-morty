@@ -7,13 +7,13 @@ const Location = ({location, personagem,event}) => {
 
     return (
         <>
-            <div className="div-modal" onClick={event}>
-                <div className="modal">
-                    <div className="personagem">
+            <div className="div-modal2" onClick={event}>
+                <div className="modal2">
+                    <div className="personagem2">
                         <img src={personagem.image} alt=""/>
                         <p>{personagem.name}</p>
                     </div>
-                    <div className="infos">
+                    <div className="infos2">
                     <p><strong></strong>{personagem.gender}</p>
                     <p><strong>Name: </strong> {location.name}</p>
                     <p><strong>Dimension: </strong> {location.dimension}</p>

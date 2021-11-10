@@ -97,17 +97,17 @@ const Localizacao = () => {
     
     return ( 
         <>
-        <div className="cards">
+        <div className="cards2">
                 {
                     personagens.map((item,index) => {
                        return (
-                        <div className="card" key={index} onClick={() => {
+                        <div className="card2" key={index} onClick={() => {
                             getLocation(item.location.url)
                             setdisplay(!display)
                             Getpersonagem(item.id)
                         }}>
                             <img className="" src={item.image} alt=""/>
-                            <div className="card-body">
+                            <div className="card-body2">
                                 <strong>{item.name}</strong>
                             </div>
                         </div>
@@ -121,9 +121,9 @@ const Localizacao = () => {
                         <Location location={locations} personagem={idPersonagem} event={()=>setdisplay(false)}/>
                 }
         </div>
-        <div className="pagination">
-        <button onClick={voltar} ><img className="img-button" src={prev} alt="botão de passar para a esquerda" /></button>
-            <button onClick={avanca} ><img className="img-button" src={next}  alt="botão de passar para a direira"/></button>
+        <div className="pagination2">
+        <button onClick={voltar} ><img className="img-button2" src={prev} alt="botão de passar para a esquerda" /></button>
+            <button onClick={avanca} ><img className="img-button2" src={next}  alt="botão de passar para a direira"/></button>
         </div>
         </>
     )
