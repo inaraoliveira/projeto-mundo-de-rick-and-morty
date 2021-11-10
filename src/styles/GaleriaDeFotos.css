@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+
+#contGaleria{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    height: auto;
+    padding: 15px;
+    margin-top: 60px;
+    background-color: #151515;
+    border-radius: 8px;
+}
+
+.navGaleria{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+}
+
+.cardGaleria img{
+    width: 595px;
+    height: 334.5px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 25%;
+}
+
+
+#navSobre, #navFotos{
+    color: chartreuse;
+}
+
+#navSobre:hover{
+    color: chartreuse;
+    text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
+    cursor: pointer;
+}
+
+#navFotos:hover{
+    color: chartreuse;
+    text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
+    cursor: pointer;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.sc-jRQBWg.qoLPS.rec.rec-carousel-wrapper{
+    width: 100%;
+}
+
+.sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-right, .sc-bdvvtL.jRFJkP.rec.rec-arrow.rec.rec-arrow-left{
+    background-color: chartreuse;
+}
+
+.sc-gKclnd.eaptOe.rec.rec-dot{
+    background-color: chartreuse;
+}
+
+.sc-gKclnd.lcUbOd.rec.rec-dot.rec.rec-dot_active{
+    background-color: chartreuse;
+    box-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
+}
+
+@media (max-width: 850px){
+    .jRFJkP, .cNNJIt {
+        display: none;
+    }     
+    .cardGaleria img{
+        width: 295px;  
+        height: 168px;     
+    }
+    #contGaleria{
+        width: 98%;
+        padding: 15px 0 15px 0;
+    }
+}

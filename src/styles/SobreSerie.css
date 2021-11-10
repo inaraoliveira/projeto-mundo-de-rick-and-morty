@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+#container{
+    display: none;
+    justify-content: center;
+}
+
+.contConteudo{
+    width: 70vw;
+    height: 98vh;
+    margin-top: 100px;
+    background-color: #151515;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    height: 8vh;
+}
+
+.conteudo{
+    padding: 3rem;
+}
+
+.curiosidades p{
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 0 0 0.5em rgb(139, 139, 139);
+    font-weight: bold;
+}
+
+.curiosidades span{
+    color: chartreuse;
+    /* text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse; */
+}
+
+.curiosidades h4{
+    margin-bottom: 10px;
+    color: chartreuse;
+}
