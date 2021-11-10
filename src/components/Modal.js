@@ -7,7 +7,7 @@ const Location = ({location, personagem,event}) => {
 
     return (
         <>
-            <div class="div-modal" onClick={event}>
+            <div className="div-modal" onClick={event}>
                 <div className="modal">
                     <div className="personagem">
                         <img src={personagem.image} alt=""/>
@@ -18,6 +18,7 @@ const Location = ({location, personagem,event}) => {
                     <p><strong>Name: </strong> {location.name}</p>
                     <p><strong>Dimension: </strong> {location.dimension}</p>
                     <p><strong>Type: </strong> {location.type}</p>
+                    <input type="button" value="Detalhes de personagens" />
                     </div>
                 </div>
             </div>

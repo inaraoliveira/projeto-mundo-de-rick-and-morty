@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .cards .card {
@@ -19,10 +21,9 @@
 }
 
 .cards .card:hover {
-    width: 15rem;
+    width: 16rem;
     box-shadow:0 0 15px 0px chartreuse;
     transition: 1000ms ease-out;
-    border: 5px solid chartreuse;
  }
 
 
