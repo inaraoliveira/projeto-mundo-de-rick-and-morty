@@ -4,12 +4,7 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family:"dk";
-  src: url("DK Lemon Yellow Sun") format("opentype") ;
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 .App {
   text-align: center;
@@ -21,4 +16,19 @@ body{
   background-position: center;
   background-attachment: fixed;
   height: 200vh;
+}
+
+
+
+::-webkit-scrollbar {
+    background: black;
+    width: 2px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #7dcd40;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(175, 255, 29);
 }
