@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h4{
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+#container{
+    display: none;
+    justify-content: center;
+}
+
+.contConteudo{
+    width: 70vw;
+    height: auto;
+    margin-top: 100px;
+    background-color: #151515;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    height: 8vh;
+}
+
+.conteudo{
+    padding: 3rem;
+}
+
+h3{
+    color: #fff;
+}
