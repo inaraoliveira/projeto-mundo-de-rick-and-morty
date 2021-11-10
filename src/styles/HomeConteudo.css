@@ -34,6 +34,15 @@
     margin: 50px 20px 50px 20px;
   }
 
+ .container-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .container-home img {
+  width: 320px;
+  height: auto;
+ }
   @media (max-width: 400px){
     .test{
       width: 310px;

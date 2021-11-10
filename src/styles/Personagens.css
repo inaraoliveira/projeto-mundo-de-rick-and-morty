@@ -1,0 +1,56 @@
+.pConteudo{
+    display:flex;
+     /* align-items:center;  */
+    /* align-content: center; */
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin:2% auto;
+    width:100vw;
+    max-width: 900px;
+    /* max-height:500px; */
+    height: 100vh;
+    gap: 10px;
+ }
+    .pImg{
+      width:100%;
+      /* border-radius: 50%; */
+    }
+    .card{
+      display: flex;
+      /* max-width: 200px; */
+      flex:1 1 200px; 
+      /* align-items:center; 
+       align-content: center; */
+      justify-content: center; 
+    flex-direction: column;
+    text-align: center;
+    background-color:black;
+    border: solid 1px white;
+    }
+    .pParagrafo{
+      margin: 5px;
+      color: black;
+    }
+    .pTitulo{
+      color:black;
+    }
+
+.butaoP{
+  height:30px;
+  background-color: #1aa9c0 ;
+  color:#fff;
+}
+
+  .pImg{
+    width:50%;
+    border-radius: 50%;
+  }
+
+  .pParagrafo{
+    margin: 5px;
+    color: #fff;
+  }
+  .pTitulo{
+    color:#fff;
+  }

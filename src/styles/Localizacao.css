@@ -1,0 +1,65 @@
+.cards2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cards2 .card2 {
+    width: 13rem;
+    margin: 10px;
+    background: #7dcd40;
+    border-radius: 7%;
+    color: #021b06;
+    transition: 1000ms ease-out;
+    font-weight: bolder;
+}
+
+.cards2 .card2:hover {
+    width: 16rem;
+    box-shadow:0 0 15px 0px chartreuse;
+    transition: 1000ms ease-out;
+ }
+
+
+.card2 img {
+    width: 100%;
+    border-radius: 3%;
+}
+
+.card-body2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+   
+}
+
+.pagination2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pagination2 button {
+    background: none;
+    border: none;
+    margin: 8px;
+}
+
+.img-button2 {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+

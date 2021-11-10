@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 .App {
   text-align: center;
 }
@@ -14,14 +16,13 @@ body{
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
+  
 }
 
-.container-flex{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container-home img {
-  width: 320px;
-  height: auto;
+::-webkit-scrollbar {
+    background: black;
+    width: 2px;
+  } 
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(175, 255, 29);
 }
