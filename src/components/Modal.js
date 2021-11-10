@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/modal.css"
+import "../styles/Modal.css"
 
 const Location = ({location, personagem,event}) => {
 
