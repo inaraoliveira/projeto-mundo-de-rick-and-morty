@@ -18,10 +18,16 @@
     margin-top: 50px;
     background-color: rgb(15, 15, 15);
     border: chartreuse solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container-bio:hover{
     box-shadow:0 0 30px chartreuse;
     transition: 0.5s;
+  }
+  .container-bio h1{
+    color: rgb(28, 163, 190);
   }
   
   .biografias{
