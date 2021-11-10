@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = (image) => {
     return(
-        <div className='card'>
+        <div className='cardGaleria'>
             <img src={image.cardImage} alt={image.imageDis} />
         </div>
     )

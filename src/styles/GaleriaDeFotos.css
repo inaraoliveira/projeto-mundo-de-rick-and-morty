@@ -27,7 +27,7 @@
     height: 8vh;
 }
 
-.card img{
+.cardGaleria img{
     width: 595px;
     height: 334.5px;
     border-style: solid;
@@ -78,7 +78,7 @@
     .jRFJkP, .cNNJIt {
         display: none;
     }     
-    .card img{
+    .cardGaleria img{
         width: 295px;  
         height: 168px;     
     }
