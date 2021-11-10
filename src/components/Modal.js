@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/Modal.css"
+import { Link } from "react-router-dom";
 
 const Location = ({location, personagem,event}) => {
 
@@ -14,11 +15,11 @@ const Location = ({location, personagem,event}) => {
                         <p>{personagem.name}</p>
                     </div>
                     <div className="infos2">
-                    <p><strong></strong>{personagem.gender}</p>
-                    <p><strong>Name: </strong> {location.name}</p>
-                    <p><strong>Dimension: </strong> {location.dimension}</p>
+                    <p><strong>Sexo:</strong>{personagem.gender}</p>
+                    <p><strong>Localização: </strong> {location.name}</p>
+                    <p><strong>Dimenção: </strong> {location.dimension}</p>
                     <p><strong>Type: </strong> {location.type}</p>
-                    <input type="button" value="Detalhes de personagens" />
+                    <div className="div-detalhes"><Link to="/personagens" className="detalhes">Mais Detalhes</Link></div>
                     </div>
                 </div>
             </div>
