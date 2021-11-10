@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Api from "../services/Api";
-import '../styles/localizacao.css'
-import Location from "../components/modal";
+import '../styles/Localizacao.css'
+import Location from "../components/Modal";
 import axios from "axios";
-// import prev from "../assets/prev.png"
-// import next from "../assets/next.png"
+ import prev from "../assets/prev.png"
+ import next from "../assets/next.png"
 
 const Localizacao = () => {
     // personagem
@@ -46,11 +46,11 @@ const Localizacao = () => {
         // chamada api para a url inicial ou para as urls que retornam em page-next e page-prev
         chamadaApi(urlInicial,page);
         // coloquei page como parametro para ficar observando as mudanças de estado dessa variavel page
-    }, [page])
+    }, [page]);
 
-    const avanca = () => {
+    function avanca() {
         // popula a variavel page com a url next que vem de info
-        setpages(info.next)
+        setpages(info.next);
     }
 
     const voltar = () => {
@@ -122,8 +122,8 @@ const Localizacao = () => {
                 }
         </div>
         <div className="pagination">
-            <button onClick={voltar} >-</button>
-            <button onClick={avanca} >+</button>
+        <button onClick={voltar} ><img className="img-button" src={prev} alt="botão de passar para a esquerda" /></button>
+            <button onClick={avanca} ><img className="img-button" src={next}  alt="botão de passar para a direira"/></button>
         </div>
         </>
     )

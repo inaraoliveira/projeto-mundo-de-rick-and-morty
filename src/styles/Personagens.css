@@ -36,13 +36,37 @@
       color:black;
     }
 
-    .imgLocation{
-      width: 15%;
-      height: 5vh;
-      margin: auto;
-    }
 .butaoP{
   height:30px;
   background-color: #1aa9c0 ;
   color:#fff;
 }
+
+  .pImg{
+    width:50%;
+    border-radius: 50%;
+  }
+  /* .card{
+    display: flex;
+     max-width: 200px;
+    flex:1 1 200px; 
+    align-items:center; 
+     align-content: center; 
+    justify-content: center; 
+  flex-direction: column;
+  text-align: center;
+  background-color:black;
+  } */
+  .pParagrafo{
+    margin: 5px;
+    color: #fff;
+  }
+  .pTitulo{
+    color:#fff;
+  }
+
+  /* .imgLocation{
+    width: 15%;
+    height: 5vh;
+    margin: auto;
+  } */
