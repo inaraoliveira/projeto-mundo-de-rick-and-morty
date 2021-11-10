@@ -18,7 +18,7 @@ p{
 
 .contConteudo{
     width: 70vw;
-    height: auto;
+    height: 98vh;
     margin-top: 100px;
     background-color: #151515;
 }
@@ -35,6 +35,20 @@ p{
     padding: 3rem;
 }
 
-h3{
+.curiosidades p{
+    text-align: justify;
+    margin-bottom: 30px;
     color: #fff;
+    text-shadow: 0 0 0.5em rgb(139, 139, 139);
+    font-weight: bold;
+}
+
+.curiosidades span{
+    color: chartreuse;
+    /* text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse; */
+}
+
+.curiosidades h4{
+    margin-bottom: 10px;
+    color: chartreuse;
 }

@@ -8,8 +8,8 @@ export const GaleriaDeFotos = () => {
         <div className='cont'>
             <section id='contGaleria'>
                 <div className='navGaleria'>
-                    <h4 id='navSobre'>Sobre a série</h4>
-                    <h4 id='navFotos'>Galeria de fotos</h4>
+                    <h4 id='navSobre'>SOBRE A SÉRIE</h4>
+                    <h4 id='navFotos'>GALERIA DE FOTOS</h4>
                 </div>
                 <Carrossel />
             </section>

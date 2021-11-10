@@ -17,6 +17,7 @@
     padding: 15px;
     margin-top: 60px;
     background-color: #151515;
+    border-radius: 8px;
 }
 
 .navGaleria{
@@ -29,11 +30,14 @@
 .card img{
     width: 595px;
     height: 334.5px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 25%;
 }
 
 
 #navSobre, #navFotos{
-    color: rgb(28, 163, 190)
+    color: chartreuse;
 }
 
 #navSobre:hover{
@@ -49,10 +53,8 @@
 }
 
 .galeria img{
-    /* object-fit: contain; */
     width: 100%;
     height: auto;
-    /* margin: 25px; */
 }
 
 .sc-jRQBWg.qoLPS.rec.rec-carousel-wrapper{
@@ -77,11 +79,11 @@
         display: none;
     }     
     .card img{
-        width: 300px;  
+        width: 295px;  
         height: 168px;     
     }
-    .contGaleria{
-        width: 95%;
+    #contGaleria{
+        width: 98%;
         padding: 15px 0 15px 0;
     }
 }
