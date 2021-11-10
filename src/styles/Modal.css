@@ -1,0 +1,54 @@
+.div-modal2{
+  background-color: #000000ef;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.modal2{
+    background-color: #000000ef;
+    position: absolute;
+    position: fixed;
+    width: 30rem;
+    height: 25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    border: solid 2px  #7dcd40;
+}
+
+.modal2:hover{
+  box-shadow:0 0 15px 0px chartreuse;
+}
+
+.modal2 strong {
+    color: #7dcd40;
+}
+
+.personagem2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+
+.personagem2 img{
+  width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
