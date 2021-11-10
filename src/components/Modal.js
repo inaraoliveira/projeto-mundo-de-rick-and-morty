@@ -15,11 +15,11 @@ const Location = ({location, personagem,event}) => {
                         <p>{personagem.name}</p>
                     </div>
                     <div className="infos2">
-                    <p><strong>Sexo:</strong>{personagem.gender}</p>
-                    <p><strong>Localização: </strong> {location.name}</p>
-                    <p><strong>Dimenção: </strong> {location.dimension}</p>
+                  
+                    <p><strong>Origem: </strong> {location.name}</p>
+                    <p><strong>Localização atual: </strong> {location.dimension}</p>
                     <p><strong>Type: </strong> {location.type}</p>
-                    <div className="div-detalhes"><Link to="/personagens" className="detalhes">Mais Detalhes</Link></div>
+                   <Link to="/personagens" className="detalhes"> <div className="div-detalhes">Mais Detalhes</div></Link>
                     </div>
                 </div>
             </div>
