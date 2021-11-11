@@ -1,13 +1,14 @@
-.modal{
-    position: fixed;
-    top:0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); 
-    transition-delay: 2s ease-in-out;
+.modal {
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  transition-delay: 2s ease-in-out;
 }
-.modal-conteudo{
+
+.modal-conteudo {
   background-color:black;
   max-width: 600px;
   margin: 90px auto;
@@ -18,13 +19,15 @@
   border: solid 1px  #7dcd40;
   transition-delay: 2s ease-in-out;
 }
-.modal-butao{
-float: right;
-background-color:unset;
-border: unset;
-color:#fff;
+
+.modal-butao {
+  float: right;
+  background-color:unset;
+  border: unset;
+  color:#fff;
 }
-.mPImg{
+
+.mPImg {
   width: 50%;
   border-radius:50%;
 }
