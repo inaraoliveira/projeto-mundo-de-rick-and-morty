@@ -1,36 +1,29 @@
 
 .pConteudo{
     display:flex;
-     /* align-items:center;  */
-    /* align-content: center; */
-    justify-content: center;
-    flex-direction:row;
     flex-wrap: wrap;
-    margin:2% auto;
-    width:100vw;
-    max-width: 900px;
-    /* max-height:500px; */
-    height: 100vh;
-    gap: 10px;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+    width:100%;
+    margin: 50px 0 20px 0;
+    height: 100%;
  }
     .pImg{
       width:100%;
-      /* border-radius: 50%; */
+      border-radius:5% 5% 0% 0%;
     }
     .card{
       display: flex;
-      /* max-width: 200px; */
-      flex:1 1 150px; 
-      /* align-items:center; 
-       align-content: center; */
+      width: 13em;
+      margin:10px;
       justify-content: center; 
     flex-direction: column;
     text-align: center;
-    background-color:black;
-    border: solid 1px white;
+    border-radius:5% 5% 0% 0%;
     }
     .pParagrafo{
-      margin: 5px;
+      margin: 3px;
       color: #fff;
     }
     .pTitulo{
@@ -38,22 +31,30 @@
     }
 
 .butaoP{
-  height:30px;
+
+  padding: 5px;
+  width:inherit;
+  align-items: center;
+  flex-direction: column;
   background-color: #1aa9c0 ;
   color:#fff;
+  cursor: pointer;
 }
-
+.pImgIcon{
+  width: 40px;
+  height: 40px;  
+  cursor: pointer;
+}
 .trocaTela{
   display:flex;
   flex:1;
    align-items: center;
     justify-content: center; 
     gap:10px;
-}
-.prev,.next{
-  height:50px;
-  margin-bottom: 5px;
-  background-color:#1aa9c0 ;
-  width:80px;
-  color:#fff;
+    background: none;
+    border: none;
+} 
+.trocaTela button{
+  background: none;
+    border: none;
 }
