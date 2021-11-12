@@ -26,7 +26,6 @@
 .nav-bar a:hover{
     color: chartreuse;
     text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
-    /* text-shadow: 0 0 0.5em rgb(28, 163, 190), 0 0 0.5em rgb(28, 163, 190), 0 0 0.5em rgb(28, 163, 190); */
     transition: 0.5s;
 }
 
