@@ -8,7 +8,10 @@
     background-color: rgb(15, 15, 15);
   }
   
-  .test p {
+
+  .test p{
+    word-spacing: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
   }
@@ -38,7 +41,7 @@
   .container-bio h1{
     color: rgb(28, 163, 190);
   }
-  
+ 
   .biografias{
     width: 75vw;
     height: auto;

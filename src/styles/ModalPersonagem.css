@@ -1,33 +1,46 @@
-.modal {
-  position: fixed;
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5); 
-  transition-delay: 2s ease-in-out;
+.modal{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+   margin:5px;
 }
 
 .modal-conteudo {
   background-color:black;
   max-width: 600px;
   margin: 90px auto;
-  border-radius:5px;
+  border-radius:30px;
   padding: 20px;
   text-align: center;
   /* border: solid 1px white; */
   border: solid 1px  #7dcd40;
-  transition-delay: 2s ease-in-out;
+  animation: modal .6s;
+}
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform:translate(0,-60px )
+  }
+  to{
+    opacity: 1;
+    transform:translate3d(0,0)
+  }
 }
 
-.modal-butao {
-  float: right;
-  background-color:unset;
-  border: unset;
-  color:#fff;
+.modal-butao{
+float: right;
+background-color:unset;
+border: unset;
+color:#fff;
+cursor: pointer;
 }
-
-.mPImg {
-  width: 50%;
+.mPImg{
+  width: 40%;
   border-radius:50%;
+}
+span{
+  color:#1aa9c0;
 }

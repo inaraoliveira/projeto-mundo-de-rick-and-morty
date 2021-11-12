@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../styles/Personagens.css";
 import Api from "../services/Api";
 import ModalPersonagem from "../components/ModalPersonagem";
-
+import imgAn from "../assets/an.png";
+import imgAv from "../assets/av.png";
 export const Personagens = () => {
   // document.title = "Rick and Morty";
   const [personagens, setPersonagens] = useState([]);
@@ -69,19 +70,19 @@ export const Personagens = () => {
               {/* <h1 className="ptitulo">{card.name}</h1> */}
               <img className="pImg" src={card.image} alt="" />
 
-              <button onClick={() => { setIsOpen(true); Getpersonagem(card.id) }} className="butaoP">{card.name}</button>
+              <p onClick={() => { setIsOpen(true); Getpersonagem(card.id) }} className="butaoP">{card.name}</p>
             </div>
           )
         })}
 
 
         <ModalPersonagem personagem={idPersonagem} open={isOpen} close={() => setIsOpen(false)} />
-        <div className="trocaTela">
-          <button onClick={voltar} className="prev">Anterior</button>
-          <button onClick={avanca} className="next">Próxima</button>
-        </div>
+        
       </div>
-
+      <div className="trocaTela">
+          <button onClick={voltar} ><img src={imgAn} className="pImgIcon"/></button>
+          <button onClick={avanca} ><img src={imgAv}  className="pImgIcon"/></button>
+        </div>
     </>
 
   );
