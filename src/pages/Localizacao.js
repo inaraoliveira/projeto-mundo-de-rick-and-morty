@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Api from "../services/Api";
-import '../styles/Localizacao.css';
-import Location from "../components/Modal";
+import '../styles/Localizacao.css'
+import Modal from "../components/Modal";
 import axios from "axios";
-import prev from "../assets/prev.png";
-import next from "../assets/next.png";
+import prev from "../assets/prev32px.png"
+import next from "../assets/next32px.png"
 
 const Localizacao = () => {
     // personagem
-    const [personagens, setDados] = useState([]); 
+    const [dados, setDados] = useState([]); 
 
     useEffect(()=>{
         document.title = 'Localização'
@@ -103,11 +103,11 @@ const Localizacao = () => {
         <>
         <div className="cards2">
                 {
-                    personagens.map((item,index) => {
+                    dados.map((item,index) => {
                        return (
                         <div className="card2" key={index} onClick={() => {
                             getLocation(item.location.url)
-                            setdisplay(!display)
+                            setdisplay(true)
                             Getpersonagem(item.id)
                         }}>
                             <img className="" src={item.image} alt=""/>
@@ -122,7 +122,7 @@ const Localizacao = () => {
                 {
                     // faz um ternario para o modal ficar interativo
                     display &&
-                        <Location location={locations} personagem={idPersonagem} event={()=>setdisplay(false)}/>
+                        <Modal location={locations} personagem={idPersonagem} event1={()=>setdisplay(false)} />
                 }
         </div>
         <div className="pagination2">

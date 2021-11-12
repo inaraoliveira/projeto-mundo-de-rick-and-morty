@@ -1,4 +1,4 @@
-.container-perfil{
+.container-perfil {
     width: auto;
     height: 200px;
     margin-bottom: 50px;
@@ -9,11 +9,10 @@
     justify-content: center;
     align-items: center;
 }
-.container-perfis{
+.container-perfis {
     width: 100%;
     height: auto;
     padding: 80px 50px 50px 50px;
     display: flex;
     flex-direction: column;
-
 }
