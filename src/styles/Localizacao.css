@@ -8,10 +8,12 @@
     justify-content: center;
     height: 100%;
     width: 100%;
+    
 }
 
 .cards2 .card2 {
     width: 13rem;
+    height: 16rem;
     margin: 10px;
     background: #7dcd40;
     border-radius: 7%;
@@ -22,9 +24,12 @@
 
 .cards2 .card2:hover {
     width: 16rem;
+    height: 19rem;
     box-shadow:0 0 15px 0px chartreuse;
     transition: 1000ms ease-out;
  }
+
+ 
 
 
 .card2 img {
@@ -56,6 +61,22 @@
 .img-button2 {
     width: 40px;
     height: 40px;
+    transition: 300ms ease-out;
+    margin-left: 10px;
+}
+
+ .img-button2:hover {
+    width: 48px;
+    height:48px ;
+    transition: 300ms ease-out;
+
+} 
+
+.img-button2:active {
+    width: 40px;
+    height:40px ;
+    transition: 300ms ease-out;
+
 }
 
 

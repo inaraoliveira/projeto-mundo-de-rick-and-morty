@@ -1,48 +1,76 @@
-    .test{
+  .test{
     width: 60vw;
     height: auto;
+    font-size: 1.125rem;
     margin: 50px 0 50px 0;
-    padding: 20px;
+    padding: 30px;
     text-align: justify;
-    background-color: rgb(101, 18, 179);
+    background-color: rgb(15, 15, 15);
   }
   
+
   .test p{
+    word-spacing: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: white;
+  }
+  .text-title{
+    text-align: center;
     color: chartreuse;
+    margin-bottom: 25px;
   }
 
-  .container-bio{
+  .container-bio {
     width: 300px;
     height: 200px;
     margin-top: 50px;
     background-color: rgb(15, 15, 15);
     border: chartreuse solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
   }
-  .container-bio:hover{
+
+  .container-bio:hover {
     box-shadow:0 0 30px chartreuse;
     transition: 0.5s;
+    border-radius: initial;
   }
-  
+  .container-bio h1{
+    color: rgb(28, 163, 190);
+  }
+ 
   .biografias{
+    width: 75vw;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
   .biografias aside{
-    margin: 50px 20px 50px 20px;
+    margin: 50px 10px 50px 10px;
   }
 
- .container-flex{
+ .container-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
  }
+
  .container-home img {
   width: 320px;
   height: auto;
+  margin-bottom: 50px;
  }
+
+ .title-pages-container{
+  margin: 60px 0 20px 0;
+  color: chartreuse;
+ }
+
   @media (max-width: 400px){
     .test{
       width: 310px;

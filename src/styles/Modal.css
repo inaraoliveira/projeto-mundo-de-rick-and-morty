@@ -1,4 +1,4 @@
-.div-modal2{
+.div-modal2 {
   background-color: #000000ef;
   position: fixed;
   width: 100%;
@@ -11,21 +11,20 @@
   transition: all 0.3s ease-in-out;
 }
 
-
-.modal2{
-    background-color: #000000ef;
-    position: absolute;
-    position: fixed;
-    width: 30rem;
-    height: 25rem;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 30px;
-    transition: all 0.3s ease-in-out;
-    border: solid 2px  #7dcd40;
+.modal2 {
+  background-color: #000000ef;
+  position: absolute;
+  position: fixed;
+  width: 18rem;
+  height: 30rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  border: solid 2px  #7dcd40;
 }
 
 .modal2:hover{
@@ -33,22 +32,77 @@
 }
 
 .modal2 strong {
-    color: #7dcd40;
+  color: #7dcd40;
 }
 
 .personagem2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
-  margin-bottom: 20px;
+  justify-content: space-evenly;
+  width: 100%;
+  height:60% ;
+  
+}
+
+.personagem2 img {
+  width: 13rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.detalhes2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 126, 17);
+  color: white;
+  border-style: none;
+  border-radius: 12px;
+  height: 20%;
+  width: 50%;
+  text-decoration: none;
+  transition: 200ms ease-out;
+  margin-top: 3%;
+
+}
+
+.detalhes2:hover {
+  
+  height: 25%;
+  width: 55%;
+  text-decoration: none;
+  transition: 200ms ease-out;
+
+}
+
+.infos2{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+ 
 }
 
 
-.personagem2 img{
-  width: 10rem;
-  border-radius: 50%;
-  margin-bottom: 10px;
+
+@media (min-width: 550px) {
+  
+  .modal2 {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .personagem2 img {
+    width: 8rem;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
 }
 
 
