@@ -1,3 +1,5 @@
+import { GaleriaDeFotos } from "../components/GaleriaDeFotos";
+import { SobreSerie } from "../components/SobreSerie";
 import React, { useEffect } from "react";
 
 export const SobreASerie =()=> {
@@ -8,6 +10,8 @@ export const SobreASerie =()=> {
     
     return(
         <>
+        <SobreSerie />
+        <GaleriaDeFotos />
         </>
     );
 }
