@@ -8,6 +8,7 @@
     background-color: rgb(15, 15, 15);
   }
   
+
   .test p{
     word-spacing: 0.2em;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,7 +21,7 @@
     margin-bottom: 25px;
   }
 
-  .container-bio{
+  .container-bio {
     width: 300px;
     height: 200px;
     margin-top: 50px;
@@ -31,7 +32,8 @@
     align-items: center;
     border-radius: 24px;
   }
-  .container-bio:hover{
+
+  .container-bio:hover {
     box-shadow:0 0 30px chartreuse;
     transition: 0.5s;
     border-radius: initial;
@@ -39,7 +41,7 @@
   .container-bio h1{
     color: rgb(28, 163, 190);
   }
-  
+ 
   .biografias{
     width: 75vw;
     height: auto;
@@ -52,11 +54,12 @@
     margin: 50px 10px 50px 10px;
   }
 
- .container-flex{
+ .container-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
  }
+
  .container-home img {
   width: 320px;
   height: auto;
