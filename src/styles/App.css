@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +9,10 @@
 
 .App {
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
