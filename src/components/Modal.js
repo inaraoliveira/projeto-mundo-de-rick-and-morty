@@ -10,24 +10,27 @@ const Modal = ({location, personagem, event1,}) => {
         
             <div className="div-modal2" onClick={event1}>
                 <div className="modal2">
-                    <div className="personagem2">
+                    <div className="box-img">
                         <img src={personagem.image} alt=""/>
-                        <p>{personagem.name}</p>
                     </div>
-                    <div className="infos2">
+                    <div className="box-info2">
                   
-                        <p>
-                            <strong>Origem: </strong> {location.name}
-                        </p>
-                        <p>
-                            <strong>Localização atual: </strong> {location.dimension}
-                        </p>
-                        <p>
-                            <strong>Type: </strong> {location.type}
-                        </p>
-                      <Link to="/personagens" className="detalhes2"> 
-                        Mais Detalhes
-                      </Link>
+                        <div className="info2">
+                            <p>
+                                <strong>Origem: </strong> {location.name}
+                            </p>
+                            <p>
+                                <strong>Localização atual: </strong> {location.dimension}
+                            </p>
+                            <p>
+                                <strong>Type: </strong> {location.type}
+                            </p>
+                        </div>
+                      <div className="box-detalhes2">
+                          <Link to="/personagens" className="detalhes2">
+                            Mais Detalhes
+                          </Link>
+                      </div>
                     </div>
                 </div>
             </div>
