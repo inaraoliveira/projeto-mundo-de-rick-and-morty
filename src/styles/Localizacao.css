@@ -18,7 +18,7 @@
     background: #7dcd40;
     border-radius: 7%;
     color: #021b06;
-    transition: 1000ms ease-out;
+    transition: 500ms ease-out;
     font-weight: bolder;
 }
 
@@ -26,7 +26,7 @@
     width: 16rem;
     height: 19rem;
     box-shadow:0 0 15px 0px chartreuse;
-    transition: 1000ms ease-out;
+    transition: 500ms ease-out;
  }
 
  
