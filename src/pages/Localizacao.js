@@ -8,7 +8,7 @@ import next from "../assets/next32px.png"
 
 const Localizacao = () => {
     // personagem
-    const [dados, setDados] = useState([]); 
+    const [personagens, setPersonagens] = useState([]); 
 
     useEffect(()=>{
         document.title = 'Localização'
@@ -38,7 +38,7 @@ const Localizacao = () => {
         Api.get(page? page : url)
         .then(response => {
             // populei a variavel o array personagens com tds os dado que vem de results
-            setDados(response.data.results);
+            setPersonagens(response.data.results);
             // populei o array de info com informações sobre a paginação
             setInfo(response.data.info)
         }).catch(error => {
@@ -84,10 +84,6 @@ const Localizacao = () => {
         .then(response => {
             const dadosPerso = {
                 name: response.data.name,
-                status: response.data.status,
-                species: response.data.species,
-                type: response.data.type,
-                gender: response.data.gender,
                 image: response.data.image,
             }
             setId(dadosPerso);
@@ -103,7 +99,7 @@ const Localizacao = () => {
         <>
         <div className="cards2">
                 {
-                    dados.map((item,index) => {
+                    personagens.map((item,index) => {
                        return (
                         <div className="card2" key={index} onClick={() => {
                             getLocation(item.location.url)
