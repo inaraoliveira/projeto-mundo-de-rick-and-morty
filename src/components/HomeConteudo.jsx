@@ -1,7 +1,6 @@
 import React from "react";
 import portalduplo from '../assets/portaldivisor';
 import '../styles/HomeConteudo.css';
-import { Bio } from "./Biografia";
 import { Title } from "./TitlePages";
 
 export const Conteudo = ()=>{
@@ -31,12 +30,7 @@ export const Conteudo = ()=>{
                     de Morty; e Jerry, o pai de Morty.
                 </p>
             </div>
-            <img src={portalduplo} alt='imagem divisora'/>
-            <div className='biografias'>
-                <Bio />
-                <Bio />
-            </div>
-            
+            <img src={portalduplo} alt='imagem divisora'/>        
         </div>
     );
 }
