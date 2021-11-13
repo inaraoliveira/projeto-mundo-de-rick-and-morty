@@ -1,4 +1,4 @@
-.container-perfil {
+/* .container-perfil {
     width: auto;
     height: 200px;
     margin-bottom: 50px;
@@ -15,4 +15,71 @@
     padding: 80px 50px 50px 50px;
     display: flex;
     flex-direction: column;
+} */
+
+.imagem{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card_imagem{
+    width: 300px;
+    height: auto;
+    border-radius: 15px 15px 0px 0px;
+}
+.card_perfil{
+    margin: 50px 10px 10px 10px;
+    background-color: #7dcd40;;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_perfil:hover{
+    box-shadow:0 0 30px chartreuse;
+    transition: 0.5s;
+}
+.card_title{
+    margin: 30px;
+    color:black
+}
+.icon a img{
+    width: 35px;
+    height:auto;
+}
+.icon{
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    transition: 600ms ease-out;
+}
+.gmail{
+    width: 170px;
+    transition: 600ms ease-out;   
+}
+.gmail:hover{
+    width: 40px;
+    transition: 300ms ease-out;  
+}
+
+.git{
+    width: 170px;
+    transition: 600ms ease-out;
+}
+.git:hover{
+    width: 40px;
+    transition: 300ms ease-out; 
+}
+.linkedin{
+    width: 170px;
+    transition: 600ms ease-out;
+}
+.linkedin:hover{
+    width: 40px;
+    transition: 300ms ease-out; 
 }
