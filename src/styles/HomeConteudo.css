@@ -1,13 +1,11 @@
-.container-texto{
-  width: 60vw;
-  height: auto;
-  font-size: 1.125rem;
-  margin: 50px 0 50px 0;
-  padding: 30px;
-  border-radius: 8px;
-  text-align: justify;
-  background-color: rgb(15, 15, 15);
-}
+  .container-texto{
+    width: 60vw;
+    height: auto;
+    font-size: 1.125rem;
+    margin: 50px 0 50px 0;
+    padding: 30px;
+    background-color: rgb(15, 15, 15);
+  }
 
 .container-texto p{
   word-spacing: 0.2em;
