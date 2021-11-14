@@ -28,7 +28,7 @@ const Modal = ({location, personagem, event1,}) => {
                         </div>
                       <div className="box-detalhes2">
                           <Link to="/personagens" className="detalhes2">
-                            Mais Detalhes
+                            <p>Mais Detalhes</p>
                           </Link>
                       </div>
                     </div>

@@ -156,8 +156,17 @@
 
   .detalhes2 {
     height: 30%;
-    width: 60%;
+    width: 40%;
   }
+
+  .detalhes2:hover{
+    height: 35%;
+    width: 45%;
+    font-size: 20px;
+
+  }
+
+
   .box-info2 {
     flex-flow: column;
     display: flex;
@@ -176,6 +185,8 @@
     width: 100%;
     height: 70%;
   }
+
+
 
 }
 
