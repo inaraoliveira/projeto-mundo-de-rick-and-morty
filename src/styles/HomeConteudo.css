@@ -20,18 +20,6 @@
   margin-bottom: 25px;
 }
 
-.biografias{
-  width: 75vw;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-.biografias aside{
-  margin: 50px 10px 50px 10px;
-}
-
 .container-flex {
 display: flex;
 flex-direction: column;
@@ -52,8 +40,8 @@ letter-spacing: 5px;
 text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse ;
 }
 
-@media (max-width: 400px){
-  .test{
-    width: 310px;
+@media (max-width: 450px){
+  .container-texto{
+    width: 95vw;
   }
 }

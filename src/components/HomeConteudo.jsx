@@ -2,6 +2,7 @@ import React from "react";
 import portalduplo from '../assets/portaldivisor';
 import '../styles/HomeConteudo.css';
 
+
 export const Conteudo = ()=>{
 
     return(
