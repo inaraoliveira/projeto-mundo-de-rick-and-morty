@@ -7,51 +7,39 @@
     background-color: rgb(15, 15, 15);
   }
 
-  .container-texto p{
-    word-spacing: 0.2em;
-    font-weight: bold;
-    color: white;
-  }
-  .text-title{
-    text-align: center;
-    color: chartreuse;
-    margin-bottom: 25px;
-  }
- 
-  .biografias{
-    width: 75vw;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .biografias aside{
-    margin: 50px 10px 50px 10px;
-  }
-
- .container-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
-
- .container-home img {
-  width: 320px;
-  height: auto;
-  margin-bottom: 50px;
- }
-
- .title-pages-container{
-  margin: 60px 0 20px 0;
-  color: chartreuse;
+.container-texto p{
+  word-spacing: 0.2em;
   font-weight: bold;
-  letter-spacing: 5px;
-  text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse ;
- }
+  color: white;
+}
+.text-title{
+  text-align: center;
+  color: chartreuse;
+  margin-bottom: 25px;
+}
 
-  @media (max-width: 400px){
-    .test{
-      width: 310px;
-    }
+.container-flex {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.container-home img {
+width: 320px;
+height: auto;
+margin-bottom: 50px;
+}
+
+.title-pages-container{
+margin: 60px 0 20px 0;
+color: chartreuse;
+font-weight: bold;
+letter-spacing: 5px;
+text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse ;
+}
+
+@media (max-width: 450px){
+  .container-texto{
+    width: 95vw;
   }
+}
