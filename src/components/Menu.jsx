@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import '../styles/Menu.css';
 
 export const Menu = ()=> {
@@ -13,10 +13,10 @@ export const Menu = ()=> {
             <button onClick={()=>{toggle(!clicked)}} className='responsive-btn'>▽</button>
             { clicked ? 
             <div className='dropdown-menu'>   
-                <Link to="/">HOME</Link>
-                <Link to="/personagens">PERSONAGENS</Link>
-                <Link to="/sobreaserie">SOBRE A SÉRIE</Link>
-                <Link to="/localizacao">LOCALIZAÇÃO</Link>
+                <NavLink activeStyle={{color: 'chartreuse'}} exact to="/">HOME</NavLink>
+                <NavLink activeStyle={{color: 'chartreuse'}} to="/personagens">PERSONAGENS</NavLink>
+                <NavLink activeStyle={{color: 'chartreuse'}} to="/sobreaserie">SOBRE A SÉRIE</NavLink>
+                <NavLink activeStyle={{color: 'chartreuse'}} to="/localizacao">LOCALIZAÇÃO</NavLink>
             </div>
             :''}
         </div>
