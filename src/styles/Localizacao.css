@@ -19,7 +19,7 @@
     background: #7dcd40;
     border-radius: 7%;
     color: #021b06;
-    transition: 500ms ease-out;
+    transition: 600ms ease-out;
     font-weight: bolder;
 }
 
@@ -27,7 +27,7 @@
     width: 15rem;
     height: 19rem;
     box-shadow:0 0 15px 0px chartreuse;
-    transition: 500ms ease-out;
+    transition: all 0.3s ease-in-out;
  }
 
 .card2 img {

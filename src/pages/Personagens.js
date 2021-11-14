@@ -66,23 +66,24 @@ export const Personagens = () => {
         {personagens.map((card, key) => {
 
           return (
-            <div className="card" key={key}>
-              {/* <h1 className="ptitulo">{card.name}</h1> */}
-              <img className="pImg" src={card.image} alt="" />
+            <div className="card" key={key} onClick={() => { setIsOpen(true); Getpersonagem(card.id) }}>
+              <img className="pImg" src={card.image} alt={card.name} />
 
-              <p onClick={() => { setIsOpen(true); Getpersonagem(card.id) }} className="butaoP">{card.name}</p>
+
+              <p onClick={() => { setIsOpen(true); Getpersonagem(card.id) }} className="butaoP" >{card.name}</p>
+
             </div>
           )
         })}
 
 
         <ModalPersonagem personagem={idPersonagem} open={isOpen} close={() => setIsOpen(false)} />
-        
+
       </div>
       <div className="trocaTela">
-          <button onClick={voltar} ><img src={imgAn} className="pImgIcon"/></button>
-          <button onClick={avanca} ><img src={imgAv}  className="pImgIcon"/></button>
-        </div>
+        <button onClick={voltar} ><img src={imgAn} className="pImgIcon" /></button>
+        <button onClick={avanca} ><img src={imgAv} className="pImgIcon" /></button>
+      </div>
     </>
 
   );

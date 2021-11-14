@@ -5,19 +5,22 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0,0,0,0.5); 
-   margin:5px;
+   padding:5px;
 }
 
 .modal-conteudo {
   background-color:black;
   max-width: 600px;
-  margin: 90px auto;
+  margin: 160px auto;
   border-radius:30px;
   padding: 20px;
   text-align: center;
-  /* border: solid 1px white; */
-  border: solid 1px  #7dcd40;
+  border: solid 1px  #1aa9c0;
   animation: modal .6s;
+  transition: 600ms ease-out;
+}
+.modal-conteudo:hover{
+  box-shadow:0 0 15px 0px#1aa9c0 ;
 }
 @keyframes modal {
   from {
@@ -34,7 +37,7 @@
 float: right;
 background-color:unset;
 border: unset;
-color:#fff;
+color:#1aa9c0;
 cursor: pointer;
 }
 .mPImg{
@@ -43,4 +46,10 @@ cursor: pointer;
 }
 span{
   color:#1aa9c0;
+  font-weight: bolder;
+}
+.pParagrafo{
+  margin: 3px;
+  color: #fff;
+  font-size:1.1em;
 }
