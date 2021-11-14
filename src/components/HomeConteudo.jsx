@@ -7,7 +7,6 @@ export const Conteudo = ()=>{
 
     return(
         <div className='container-flex'>
-            <Title titulo='🪐 SEJA BEM VINDO AO MUNDO DO RICK AND MORTY! 🪐' />
             <div className='container-texto'>
                 <div className='text-title'>
                     <h2>O que é Rick and Morty?</h2>
