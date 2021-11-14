@@ -16,13 +16,13 @@ const Modal = ({location, personagem, event1,}) => {
                     <div className="box-info2">
                   
                         <div className="info2">
-                            <p>
+                            <p className="text-info">
                                 <strong>Origem: </strong> {location.name}
                             </p>
-                            <p>
+                            <p className="text-info">
                                 <strong>Localização atual: </strong> {location.dimension}
                             </p>
-                            <p>
+                            <p className="text-info">
                                 <strong>Type: </strong> {location.type}
                             </p>
                         </div>
