@@ -1,6 +1,8 @@
 import React from "react";
 import portalduplo from '../assets/portaldivisor';
 import '../styles/HomeConteudo.css';
+import { Recomendados } from "./Recomendados";
+
 
 
 export const Conteudo = ()=>{
@@ -29,7 +31,8 @@ export const Conteudo = ()=>{
                     de Morty; e Jerry, o pai de Morty.
                 </p>
             </div>
-            <img src={portalduplo} alt='imagem divisora'/>        
+            <img src={portalduplo} alt='imagem divisora'/>
+            <Recomendados />        
         </div>
     );
 }
