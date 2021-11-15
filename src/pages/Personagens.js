@@ -16,7 +16,7 @@ export const Personagens = () => {
 
 
   useEffect(() => {
-    document.title = 'Personagens';
+    document.title = 'Rick & Morty - Personagens';
   }, []);
 
   const consumindoApi = (url) => {
