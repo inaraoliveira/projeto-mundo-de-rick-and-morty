@@ -1,29 +1,9 @@
-/* .container-perfil {
-    width: auto;
-    height: 200px;
-    margin-bottom: 50px;
-    background-color: rgb(15, 15, 15);
-    color: rgb(28, 163, 190);
-    border: chartreuse solid 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container-perfis {
-    width: 100%;
-    height: auto;
-    padding: 80px 50px 50px 50px;
-    display: flex;
-    flex-direction: column;
-} */
-
-.imagem{
+.container-criadores{
     margin-bottom: 50px;
     display: flex;
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
 }
 .card_imagem{
     width: 300px;
@@ -31,7 +11,7 @@
     border-radius: 15px 15px 0px 0px;
 }
 .card_perfil{
-    margin: 50px 10px 10px 10px;
+    margin: 50px 20px 10px 20px;
     background-color: #7dcd40;;
     border-radius: 20px;
     display: flex;

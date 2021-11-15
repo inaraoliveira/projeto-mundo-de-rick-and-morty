@@ -21,52 +21,52 @@ export const Criadores =()=> {
    
   return (
     <section>
-      <div className="imagem">
+      <div className="container-criadores">
           
         <Card
-          imagem={Emanuel}
-          title="EMANUEL" 
-          imgGit={Git}
-          imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+            imagem={Emanuel}
+            title="EMANUEL" 
+            imgGit={Git}
+            imgLinkedin={Linkedin}
+            imgGmail={Gmail}
         />
 
         <Card
-          imagem={Marcelo}
-          title="MARCELO"
-          imgGit={Git}
-          imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+            imagem={Marcelo}
+            title="MARCELO"
+            imgGit={Git}
+            imgLinkedin={Linkedin}
+            imgGmail={Gmail}
         />
 
         <Card
-          imagem={Thassio}
-          title="THASSIO"
-          imgGit={Git}
-          imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+            imagem={Thassio}
+            title="THASSIO"
+            imgGit={Git}
+            imgLinkedin={Linkedin}
+            imgGmail={Gmail}
         />
 
-      <Card
-          imagem={Nara}
-          title="NARA"
-          imgGit={Git}
-          imgLinkedin={Linkedin}
-          imgGmail={Gmail}
-        />
-          <Card
-                    imagem={Kaio}
-                    title="KAIO"
-                    imgGit={Git}
-                    imgLinkedin={Linkedin}
-                    imgGmail={Gmail}
-                  />
         <Card
-          imagem={Michele}
-          title="MICHELE"
-          imgGit={Git}
-          imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+            imagem={Nara}
+            title="NARA"
+            imgGit={Git}
+            imgLinkedin={Linkedin}
+            imgGmail={Gmail}
+        />
+        <Card
+            imagem={Kaio}
+            title="KAIO"
+            imgGit={Git}
+            imgLinkedin={Linkedin}
+            imgGmail={Gmail}
+        />
+        <Card
+            imagem={Michele}
+            title="MICHELE"
+            imgGit={Git}
+            imgLinkedin={Linkedin}
+            imgGmail={Gmail}
         />
       </div>
     </section>
