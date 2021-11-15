@@ -2,9 +2,11 @@
     width: 60vw;
     height: auto;
     font-size: 1.125rem;
+    text-align: left;
     margin: 50px 0 50px 0;
     padding: 30px;
-    background-color: rgb(15, 15, 15);
+    background-color: #151515c2;
+    border-radius: 8px;
   }
 
 .container-texto p{

@@ -50,6 +50,8 @@
     color: #fff;
     text-shadow: 0 0 0.5em rgb(139, 139, 139);
     font-weight: bold;
+    font-size: 1.125rem;
+    text-align: left;
 }
 
 .curiosidades span{
@@ -58,6 +60,7 @@
 
 .curiosidades h4{
     margin-bottom: 10px;
+    font-size: 1.125rem;
     color: chartreuse;
 }
 
