@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 export const SobreASerie =()=> {
 
     useEffect(()=>{
-        document.title = 'Sobre a Série'
+        document.title = 'Rick & Morty - Sobre a Série'
     }, []);
     
     return(

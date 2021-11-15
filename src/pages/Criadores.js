@@ -5,7 +5,7 @@ import '../styles/Criadores.css'
 export const Criadores =()=> {
 
     useEffect(()=>{
-        document.title = 'Criadores'
+        document.title = 'Rick & Morty - Criadores'
     }, []);
     
     return(

@@ -11,7 +11,7 @@ const Localizacao = () => {
     const [personagens, setPersonagens] = useState([]); 
 
     useEffect(()=>{
-        document.title = 'Localização'
+        document.title = 'Rick & Morty - Localização'
     }, []);
     
     // localizaçoes
