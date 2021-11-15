@@ -1,15 +1,16 @@
 import React from 'react';
-import '../styles/SobreSerie.css'
+import '../styles/SobreSerie.css';
+import Carrossel from "./Carrossel.jsx";
 
 export const SobreSerie = () => {
     return(
         <div id='container'>
             <section className='contConteudo'>
-                <div className='nav'>
-                    <h4 id='navSobre'>SOBRE A SÉRIE</h4>
-                    <h4 id='navFotos'>GALERIA DE FOTOS</h4>
+                <div id='carrossel'>
+                    <Carrossel />
                 </div>
-                <div className='conteudo'>
+                <div id='conteudo'>
+                    <h1 className='titleSerie'>CURIOSIDADES</h1>
                     <article className='curiosidades'>
                         <h4><span>1-</span> A série foi uma das primeiras a estrear um episódio no Instagram</h4>
                         <p>
@@ -19,7 +20,16 @@ export const SobreSerie = () => {
                         </p>
                     </article>
                     <article className='curiosidades'>
-                        <h4><span>2-</span> A inspiração para Mr. Meeseeks veio de um gato</h4>
+                        <h4><span>2-</span> Justin Roilando fica bêbado para interpretar Rick</h4>
+                        <p>
+                        A voz por trás de Rick é pelo menos parcialmente autêntica em sua tendência a beber e em seus arrotos esporádicos. Esses
+                        arrotos costumam ser o resultado de Justin Roiland bebendo cerveja durante as sessões de gravação. Isso não apenas induz
+                        esses arrotos cômicos, mas também permite que ele interprete um personagem mais maluco, livre e solto, que é propenso a
+                        divagações divertidas.
+                        </p>
+                    </article>
+                    <article className='curiosidades'>
+                        <h4><span>3-</span> A inspiração para Mr. Meeseeks veio de um gato</h4>
                         <p>
                         Em um vídeo, os criadores comentaram a origem de Mr. Meeseeks, o personagem múltiplo que realiza desejos e depois morre,
                         mostrado no episódio Meeseeks And Destroy. A inspiração veio de um amigo de Roiland, que tinha um gato chamado Skeeseks.
@@ -28,7 +38,7 @@ export const SobreSerie = () => {
                         </p>
                     </article>
                     <article className='curiosidades'>
-                        <h4><span>3-</span> Picle Rick é uma homenagem a um episódio de Breaking Bad</h4>
+                        <h4><span>4-</span> Picle Rick é uma homenagem a um episódio de Breaking Bad</h4>
                         <p>
                         Se você viu o terceiro episódio da terceira temporada, Pickle Rick, pôde conferir uma das aventuras mais malucas da série:
                         Rick transforma a si mesmo num pepino para não ter que ir a uma sessão de terapia familiar. Ele acaba caindo no esgoto e 
@@ -37,7 +47,7 @@ export const SobreSerie = () => {
                         </p>
                     </article>
                     <article className='curiosidades'>
-                        <h4><span>4-</span> O episódio inspirado em Uma Noite de Crime foi feito de improviso e ninguém tinha visto o filme</h4>
+                        <h4><span>5-</span> O episódio inspirado em Uma Noite de Crime foi feito de improviso e ninguém tinha visto o filme</h4>
                         <p>
                         Segundo o livro de arte recém-lançado sobre o seriado, o penúltimo episódio da segunda temporada, Look Who’s Purging Now,
                         foi criado totalmente de última hora. Isso porque a equipe pretendia fazer o episódio final em duas partes e só no final 
@@ -50,5 +60,5 @@ export const SobreSerie = () => {
                 </div>
             </section>
         </div>
-    )
+    );
 }

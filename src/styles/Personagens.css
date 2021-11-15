@@ -1,4 +1,3 @@
-
 .pConteudo{
     display:flex;
     flex-wrap: wrap;
@@ -8,53 +7,67 @@
     width:100%;
     margin: 50px 0 20px 0;
     height: 100%;
+   
  }
-    .pImg{
-      width:100%;
-      border-radius:5% 5% 0% 0%;
-    }
-    .card{
-      display: flex;
-      width: 13em;
-      margin:10px;
-      justify-content: center; 
-    flex-direction: column;
-    text-align: center;
-    border-radius:5% 5% 0% 0%;
-    }
-    .pParagrafo{
-      margin: 3px;
-      color: #fff;
-    }
-    .pTitulo{
-      color:#fff;
-    }
+.pImg{
+  width:100%;
+  border-radius:20px 20px 0 0;
+}
+.pConteudo .card{
+  display: flex;
+  width: 13rem;
+  height: 16rem;
+  margin:10px;
+  justify-content: center; 
+flex-direction: column;
+text-align: center;
+transition: 600ms ease-out;
+border-radius: 25px;
+cursor: pointer;
+}
+.card:hover{
+  width: 16rem;
+height: 19rem;
+box-shadow:0 0 15px 0px#1aa9c0 ;
+transition: all 0.3s ease-in-out;
+
+}
+
+
 
 .butaoP{
 
-  padding: 5px;
-  width:inherit;
-  align-items: center;
-  flex-direction: column;
-  background-color: #1aa9c0 ;
-  color:#fff;
-  cursor: pointer;
+padding: 6px;
+width:inherit;
+align-items: center;
+flex-direction: column;
+background-color: #1aa9c0;
+color:#fff;
+cursor: pointer;
+border-radius:0 0 20px 20px;
+padding-bottom: 25px;
+font-size:1.1em;
 }
 .pImgIcon{
-  width: 40px;
-  height: 40px;  
-  cursor: pointer;
+width: 40px;
+height: 40px;  
+cursor: pointer;
+transition: 300ms ease-out;
+}
+.pImgIcon:hover{
+  width: 48px;
+  height:48px ;
 }
 .trocaTela{
-  display:flex;
-  flex:1;
-   align-items: center;
-    justify-content: center; 
-    gap:10px;
-    background: none;
-    border: none;
+display:flex;
+  align-items: center;
+  justify-content: center; 
+  gap:10px;
+  background: none;
+  border: none;
 } 
 .trocaTela button{
-  background: none;
-    border: none;
+background: none;
+  border: none;
+  margin:8px;
 }

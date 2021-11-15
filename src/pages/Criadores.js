@@ -15,7 +15,7 @@ import Thassio from "../assets/Perfil/thassio.jpeg"
 export const Criadores =()=> {
 
     useEffect(()=>{
-        document.title = 'Criadores'
+        document.title = 'Rick & Morty - Criadores'
     }, []);
     
    

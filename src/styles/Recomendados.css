@@ -1,0 +1,27 @@
+.container-recomendados{
+    width: 60vw;
+    height: auto;
+    background-color: #151515c2;
+    border-radius: 8px;
+    margin: 20px 0px 20px 0px;
+}
+.container-ep{
+    margin: 20px;
+    color: rgb(28, 163, 190);
+    text-shadow: 0 0 0.5em rgb(28, 163, 190), 0 0 0.5em rgb(28, 163, 190);
+}
+.container-ep:hover{
+    color: blueviolet;
+    text-shadow: none;
+}
+.divEpisodios{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;  
+}
+
+@media (max-width: 450px){
+    .container-recomendados{
+        width: 95vw;  
+    }
+}

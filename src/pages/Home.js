@@ -6,7 +6,7 @@ import { Conteudo } from "../components/HomeConteudo";
 export const Home =()=> {
 
     useEffect(()=>{
-        document.title = 'Home'
+        document.title = 'Rick & Morty - Home'
     }, []);
 
     return(

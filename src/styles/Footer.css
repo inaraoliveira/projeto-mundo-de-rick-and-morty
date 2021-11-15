@@ -13,6 +13,7 @@
 
 .footer-container a{
     font-weight: bold;
+    font-size:  1.2rem;
     text-decoration: none;
     color: rgb(28, 163, 190);
 }
