@@ -5,7 +5,7 @@ import ModalPersonagem from "../components/ModalPersonagem";
 import imgAn from "../assets/prev32px.png";
 import imgAv from "../assets/next32px.png";
 export const Personagens = () => {
-  // document.title = "Rick and Morty";
+ 
   const [personagens, setPersonagens] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
   const [page, setPage] = useState("");
