@@ -1,0 +1,64 @@
+.responsive-btn{
+    width:auto;
+    font-size: 1.5rem;
+    color: rgb(28, 163, 190);
+    text-shadow: 0 0 0.5em rgb(28, 163, 190), 0 0 0.5em rgb(28, 163, 190);
+    border: none;
+    cursor: pointer;
+    background: black;
+    display: none;
+}
+.responsive-btn:hover{
+    color: chartreuse;
+    text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
+}
+
+.dropdown{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    background-color: black;
+    box-shadow: 0 8px 8px chartreuse;
+    padding: .75rem;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-5px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    display: none;
+    z-index: 2;
+}
+.dropdown-menu:active{
+    display: flex;
+}
+.dropdown-menu a{
+    padding: 0 5px 0 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: rgb(28, 163, 190);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.dropdown-menu a:hover{
+    color: chartreuse;
+    text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
+    transition: 0.5s;
+}
+
+.dropdown > .responsive-btn:focus + .dropdown-menu{
+    display: flex;
+    transform: translateY(0);
+}
+
+@media (max-width: 850px){
+    .responsive-btn{
+        display: inline-block;
+    }
+}

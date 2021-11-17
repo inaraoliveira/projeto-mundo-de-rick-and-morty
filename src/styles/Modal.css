@@ -1,0 +1,195 @@
+.div-modal2 {
+  background-color: #000000ef;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal2 {
+  background-color: #000000ef;
+  width: 80%;
+  height: 90%;
+  color: white;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  border: solid 2px  #7dcd40;
+  font-size: 12px;
+  max-width: 300px;
+}
+
+.modal2:hover{
+  transition: 0.5s;
+  box-shadow:0 0 15px 0px chartreuse;
+}
+
+@keyframes div-modal2 {
+  from {
+    opacity: 0;
+    transform:translate(0,-60px )
+  }
+  to{
+    opacity: 1;
+    transform:translate3d(0,0)
+  }
+}
+
+.modal2 strong {
+  color: #7dcd40;
+}
+
+.personagem2 {
+ 
+  width: 100%;
+  height:70% ;
+  
+}
+
+
+
+.box-img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+.box-img img {
+  height: 90%;
+  transition: all 0.3s ease-in-out;
+  border-radius: 30px;
+}
+
+.box-detalhes2{
+
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.detalhes2 {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(71, 126, 17);
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  height: 70%;
+  width: 13rem;
+  text-decoration: none;
+  transition: 200ms ease-out;
+  
+}
+
+.detalhes2:hover { 
+  height: 25%;
+  width: 55%;
+  text-decoration: none;
+  transition: 200ms ease-out;
+}
+
+.box-info2{
+  height: 50%;
+  width: 100%;
+}
+
+.info2 {
+  height: 70%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.text-info{
+  height: 20%;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+
+@media (min-width: 656px) { 
+  .modal2 {
+    max-width: 1000px;
+    display: flex;
+    width: 40rem;
+    height: 20em;
+    font-size: 1.1rem;
+  }
+
+  .personagem2 {
+    width: 70%;
+    height: 100%;
+  } 
+
+  .box-img {
+    width: 50%;
+    height: 100%;
+    border-radius: 5%;
+   
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-img img {
+    margin-top: 0%;
+    width: 80%;
+    height: 80%;
+    border-radius: 5%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .box-detalhes2 {
+    height: 20%;
+    width: 100%;
+  }
+
+  .detalhes2 {
+    height: 55%;
+    width: 45%;
+  }
+
+  .detalhes2:hover{
+    height: 58%;
+    width: 48%;
+  }
+
+  .box-info2 {
+    flex-flow: column;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-wrap: wrap;
+  }
+
+  .info2 {
+    padding-left: 0%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80%;
+  }
+  
+}
+
+

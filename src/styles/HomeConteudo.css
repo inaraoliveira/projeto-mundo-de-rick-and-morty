@@ -1,0 +1,46 @@
+  .container-texto{
+    width: 60vw;
+    height: auto;
+    font-size: 1.125rem;
+    text-align: left;
+    margin: 50px 0 0 0;
+    padding: 30px;
+    background-color: #151515c2;
+    border-radius: 8px;
+  }
+
+.container-texto p{
+  word-spacing: 0.2em;
+  font-weight: bold;
+  color: white;
+}
+.title-pages-container{
+  text-align: center;
+  color: chartreuse;
+}
+
+.container-flex {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.container-home img {
+width: 320px;
+height: auto;
+margin-bottom: 50px;
+}
+
+.title-pages-container{
+margin: 20px 0 50px 0;
+color: chartreuse;
+font-weight: bold;
+letter-spacing: 5px;
+text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse ;
+}
+
+@media (max-width: 450px){
+  .container-texto{
+    width: 95vw;
+  }
+}
