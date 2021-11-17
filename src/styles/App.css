@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Maven Pro', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url('../assets/backgound-space.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh; 
+  width: 100%; 
+}
+
+::-webkit-scrollbar {
+    background: black;
+    width: 5px;
+  } 
+::-webkit-scrollbar-thumb{
+    background: rgb(175, 255, 29);  
+}

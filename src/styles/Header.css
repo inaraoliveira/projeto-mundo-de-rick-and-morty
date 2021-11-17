@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: 155px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 30px chartreuse;
+    border-bottom: chartreuse solid 2px;
+}
+
+.Logo img {
+    width: 320px;
+    height: 120px;
+}
+
+.nav-bar a {
+    padding: 0 5px 0 5px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: rgb(28, 163, 190);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.nav-bar a:hover {
+    color: chartreuse;
+    text-shadow: 0 0 0.5em chartreuse, 0 0 0.5em chartreuse, 0 0 0.5em chartreuse;
+    transition: 0.5s;
+}
+
+
+@media (max-width: 850px) {   
+    .nav-bar {
+        display: none;
+    }
+}
