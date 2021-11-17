@@ -5,12 +5,11 @@ import '../styles/Criadores.css'
 import Emanuel from "../assets/Perfil/isack.png"
 import Kaio from "../assets/Perfil/kaio.png"
 import Marcelo from "../assets/Perfil/marcelo.png"
-import Nara from "../assets/Perfil/nara.png"
+import Inara from "../assets/Perfil/nara.png"
 import Michele from "../assets/Perfil/michele.png"
 import Git from "../assets/Perfil/Git.png"
 import Linkedin from "../assets/Perfil/Linkedin.png"
-import Gmail from "../assets/Perfil/Gmail.png"
-import Thassio from "../assets/Perfil/thassio.jpeg"
+import Thassio from "../assets/Perfil/thassio.png"
 
 export const Criadores =()=> {
 
@@ -25,48 +24,54 @@ export const Criadores =()=> {
           
         <Card
           imagem={Emanuel}
-          title="EMANUEL" 
+          title=" ISAAC EMANUEL" 
           imgGit={Git}
           imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+          linkGit="https://github.com/manelxd"
+          linkedin="https://www.linkedin.com/in/isaac-emanuel-3167a5219/"
         />
 
         <Card
           imagem={Marcelo}
-          title="MARCELO"
+          title="JOSÉ MARCELO"
           imgGit={Git}
           imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+          linkGit="https://github.com/MarceloSilva05"
+          linkedin="https://www.linkedin.com/in/marcelo-silva05"
         />
 
         <Card
           imagem={Thassio}
-          title="THASSIO"
+          title="THÁSSIO FERREIRA"
           imgGit={Git}
           imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+          linkGit="https://github.com/Thassio98"
+          linkedin="https://www.linkedin.com/in/thassio-ferreira-2947b6162/"
         />
 
       <Card
-          imagem={Nara}
-          title="NARA"
+          imagem={Inara}
+          title="INARA OLIVEIRA"
           imgGit={Git}
           imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+          linkGit="https://github.com/inaraoliveira"
+          linkedin="https://www.linkedin.com/in/inara-oliveira/"
         />
           <Card
-                    imagem={Kaio}
-                    title="KAIO"
-                    imgGit={Git}
-                    imgLinkedin={Linkedin}
-                    imgGmail={Gmail}
-                  />
+           imagem={Kaio}
+           title="KAIO LUIZ"
+           imgGit={Git}
+           imgLinkedin={Linkedin}  
+           linkGit="https://github.com/kaioluiz03"
+           linkedin="https://www.linkedin.com/in/kaioluiz03/" 
+           />
         <Card
           imagem={Michele}
-          title="MICHELE"
+          title="MICHELE FRANÇA"
           imgGit={Git}
           imgLinkedin={Linkedin}
-          imgGmail={Gmail}
+          linkGit="https://github.com/miihfranca"
+          linkedin="https://www.linkedin.com/in/michele-fran%C3%A7a-45598518a/"
         />
       </div>
     </section>
@@ -81,9 +86,8 @@ function Card(props) {
         <h2 className="card_title">{props.title}</h2>
       </div>
       <div className="icon" > 
-        <a><img className="git" src={props.imgGit}alt=""/></a>
-        <a><img className="linkedin" src={props.imgLinkedin}alt=""/></a>
-        <a><img className="gmail" src={props.imgGmail} alt=""/></a>
+        <a href={props.linkGit} target="_blank"><img className="git" src={props.imgGit}alt="git"/></a>
+        <a href={props.linkedin} target="_blank"><img className="linkedin" src={props.imgLinkedin}alt=""/></a>
       </div>
     </div>
   );
