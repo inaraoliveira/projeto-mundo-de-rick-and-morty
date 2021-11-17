@@ -23,7 +23,7 @@ const Modal = ({location, personagem, event1,}) => {
                                 <strong>Localização atual: </strong> {location.dimension}
                             </p>
                             <p className="text-info">
-                                <strong>Type: </strong> {location.type}
+                                <strong>Tipo: </strong> {location.type}
                             </p>
                         </div>
                       <div className="box-detalhes2">

@@ -20,7 +20,7 @@ export const Criadores =()=> {
    
   return (
     <section>
-      <div className="imagem">
+      <div className="container-criadores">
           
         <Card
           imagem={Emanuel}

@@ -1,10 +1,9 @@
-.imagem{
+.container-criadores{
     margin-bottom: 50px;
     display: flex;
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 100px;
 }
 .card_imagem{
     width: 300px;

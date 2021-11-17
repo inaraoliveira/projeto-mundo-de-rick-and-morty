@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import "../styles/Personagens.css";
 import Api from "../services/Api";
 import ModalPersonagem from "../components/ModalPersonagem";
-import imgAn from "../assets/an.png";
-import imgAv from "../assets/av.png";
+import imgAn from "../assets/prev32px.png";
+import imgAv from "../assets/next32px.png";
 export const Personagens = () => {
   // document.title = "Rick and Morty";
   const [personagens, setPersonagens] = useState([]);

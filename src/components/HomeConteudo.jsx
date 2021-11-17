@@ -2,6 +2,7 @@ import React from "react";
 import portalduplo from '../assets/portaldivisor';
 import '../styles/HomeConteudo.css';
 import { Recomendados } from "./Recomendados";
+import { Title } from "./TitlePages";
 
 
 
@@ -11,7 +12,7 @@ export const Conteudo = ()=>{
         <div className='container-flex'>
             <div className='container-texto'>
                 <div className='text-title'>
-                    <h2>O que é Rick and Morty?</h2>
+                    <Title titulo="O que é Rick and Morty?" /> 
                 </div>
                 <p>
                     Rick and Morty é uma série animada de comédia e ficção científica
