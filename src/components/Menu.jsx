@@ -3,14 +3,14 @@ import { NavLink } from "react-router-dom";
 import '../styles/Menu.css';
 
 export const Menu = ()=> {
-    const [clicked, setclicked] = useState(true);
+    const [clicked, setclicked] = useState(false);
     const toggle = ()=> setclicked(!clicked);
 
     
 
     return(
         <div className='dropdown'>
-            <button onTouchStart={()=>setclicked(!clicked)} onClick={()=>{toggle(!clicked)}} className='responsive-btn'>▽</button>
+            <button onClick={()=>{toggle(!clicked)}} className='responsive-btn'>▽</button>
             { clicked ? 
             <div className='dropdown-menu'>   
                 <NavLink activeStyle={{color: 'chartreuse'}} exact to="/">HOME</NavLink>
